@@ -24,11 +24,7 @@ readENSEMBLES(name)
 
 \value{\code{readGDCN} returns a vector and \code{readENSEMBLES} a 3D
   matrix, both with attributes holding meta-data. 
-  
 }
 \author{R.E. Benestad}
-\examples{
-
-}
 \keyword{IO}
 \keyword{file}

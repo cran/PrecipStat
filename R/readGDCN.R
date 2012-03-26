@@ -8,7 +8,6 @@
 
 
 
-
 readGDCN <- function(name,type="PRCP") {
   # Reads the ASCII files with daily GDCN data:
   cnames <- c(paste("day.",1:31,sep=""),paste("flags.day.",1:31,sep=""))
@@ -43,6 +42,9 @@ readGDCN <- function(name,type="PRCP") {
 
 
 readENSEMBLES <- function(name) {
+  require(ncdf)
+  require(clim.pact)
+  
   # Reads the netCDF files with daily RCM data from the ENSEMBLES project:
     print("readENSEMBLES")
     ncid <- open.ncdf(name)

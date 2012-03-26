@@ -1,0 +1,16 @@
+#import(qqplotter)
+#import(clim.pact)
+
+# Exports
+
+export(readGDCN)
+export(readENSEMBLES)
+#export(f.wet.1990.1999)
+#export(f.wet.2080.2099)
+#export(gdcn.inv)
+#export(mu.1990.1999)
+#export(mu.2080.2099)
+#export(mu.qp.rcm)
+#export(mu.qp)
+#export(mu.qp.world.jjas)
+#export(mu.qp.world)
